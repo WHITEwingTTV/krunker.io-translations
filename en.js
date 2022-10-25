@@ -1,222 +1,222 @@
 module.exports = `
-menu.btn.ranked Ranked
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
+menu.btn.ranked Rankots
+menu.btn.shop Veikals
+menu.btn.social Centrs
+menu.btn.maps Spēles
 menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
+menu.btn.settings Iestatījumi
+menu.btn.customize Personalizēt
+menu.btn.invite Uzaicināt
+menu.btn.invite.clicked Nokopēts
+menu.btn.join Pievienoties
+menu.btn.host Izveidot Spēli
+menu.btn.browser Serveris
+generic.wait Lūdzu uzgaidiet...
+generic.loading IELĀDĒJĀS...
+generic.none Nekāds
+generic.connecting PIEVIENOJAS...
+generic.select Izvēlēties
+generic.delete Izdzēst
+generic.save Saglabāt
+generic.load Ielādēt
+generic.search Sameklēt
+generic.leave Iziet
+generic.default Orģinālais
+generic.submit Iesūtīt
+generic.create Izveidot
+generic.random Nejauši
 generic.failed Failed
 generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+generic.name Vārds
+generic.level Līmenis
+generic.score Skaits
+generic.off Izslēgts
+generic.defeat ZAUDĒTS
+generic.victory UZVARĒTS
+generic.matchover RAUNDS BEIDZIES
+generic.matchaband RAUNDS PAMESTS
+generic.follow Piesekot
+generic.unfollow Atsekot
+generic.followers Sekotāji
+generic.following Piesekots
+generic.games Spēles
+generic.wins Uzvaras
+generic.lose Zaudes
+generic.clan Klans
+generic.games.played Spēles izspēlētas
+generic.games.won Spēles Uzvarētas
+generic.games.lost Spēles Zaudētas
+generic.timep Laiks Izspēlēts
+generic.kills Nogalināšanas
+generic.deaths Mirstības
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
+generic.time Laiks
+generic.logout Iziešana
+generic.logout.sessions Iziet no visām sesijām
+generic.username Ievadīt Pseidonīmu
+generic.password Ievadīt Paroli
+generic.register Reģistrēties
+generic.login Ieiet
+generic.accuracy Precizitāte
+player.waiting Gaida Spēlētājus
+player.died Tu Nomiri
+player.killed Nogalināja
 player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
+player.inactive Izmests dēļ Inaktivitātes
+player.disconnect ATVIENOJIES
+timer.end Nākamais Raunds Pēc {0}
+leaderboard.empty Tukšs Serveris
 popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
+app.play SPIED LAI SĀKTU
 app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
+app.play.mobile NOSPIED LAI SPĒLĒTU
 app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
+app.play.controller SPIED START
 app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
+purchase.error Parādijās Error
+purchase.error.click Spied šeit</a> un meiģini vēlreiz!
+purchase.error.limit Jūs varbūt esiet pārsnieguši savu dienas transakcijas daudzumu.
+settings.reset Restartēt
+settings.reset.confirm Vai esiet pārliecināti, ka vēlaties atgriezt orģinālos iestatījumus?
+settings.import Importēt
+settings.export Exportēt
+settings.none Neatrasti Iestatījumi
+settings.backup Rezerves iestatījumi
+settings.controls.change Pogu Iestatīšana
+settings.controls.press Nospiediet jebkuru pogu
 settings.controls.leaderboard InGame Leaderboard Trigger Type
-settings.controls.voicechat Voicechat Trigger Type
+settings.controls.voicechat Balss Čata runāšanas poga
 settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.netRate Network Rate (Hz)
-settings.network.lagComp Lag Compensation
-settings.network.optNet Optimized Networking
-settings.network.quickplay Force Quickplay
+settings.local.region Orģinālais Reģions
+settings.local.lang Valoda
+settings.network.header Tīkls
+settings.network.netRerouting Automātiskā Tīklošana (kaitē Ping)
+settings.network.netRate Tīkla ātrūms (Hz)
+settings.network.lagComp Raustīšanās Optimizācija
+settings.network.optNet Optimizēta Tīklošana
+settings.network.quickplay Piespiest Ātrspēli
 settings.popup.header Popups
-settings.experimental.header Experimental
-settings.experimental.holiday Holiday Effects
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
+settings.experimental.header Ekspermentāls
+settings.experimental.holiday Holiday Efekti
+settings.experimental.aimFreezeFix Tēmēšanas iesprūšanas labojums
+settings.experimental.mouseFlickFix Pelītes Uzsišanas labojums
 settings.experimental.shaderRendering Instance Rendering
-settings.experimental.mouseAccel Mouse Acceleration
+settings.experimental.mouseAccel Pelītes paātrināšaa
 settings.experimental.tbInterp TB Interpolation
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
+settings.client.header Klients
+settings.client.unlimitedFrames Bezlimitēts FPS
 settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
+settings.client.experimental Ekspermentāla Funkcija
 settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
-settings.client.resourcePacks Resource Packs
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
-settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
+settings.client.resourceSwapper Resurusu Mainītājs
+settings.client.clearCache Nodzēst kešatmiņu
+settings.client.resetSettings Atgriezt Klienta Iestatījumus
+settings.client.acceleratedCanvas Paātrināts Canvas
+settings.client.angleBackend ANGLE Grafikas pakaļgals
+settings.client.colorProfile Krāsas Profils
+settings.client.resourcePacks Resursu paka
+settings.dev.header Veidotājs
+settings.dev.forceUpdate Piespiest Atjaunināt Skins
+settings.dev.forceRegen Vienmēr Atjaunināt Spēlētāju
+settings.dev.extraBan Ekstra Ban Info
+settings.chat.header Čats
+settings.chat.chat Show Čata Laukums
+settings.chat.chat.all Vienmēr
+settings.chat.chat.focus Kamēr Fokusējies
+settings.chat.messages Rādīt Spēlētāja Ziņas
+settings.chat.unboxings Rādīt Atvēršanas
+settings.chat.chatOp Čata lielums
+settings.chat.chatBGOp Čata BG lielums
+settings.chat.chatHeight Čata augstums
+settings.chat.chatTimer Čata Taimers (i)
+settings.chat.chatTextOutline Čata Teksta Ārlīnija
+settings.chat.chatFilter Necenzēšanas Filtrs
 settings.quality.header Performance
 settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
-settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
+settings.quality.rendDst Renderēšanas Distance
+settings.quality.res Rezolūcija
+settings.quality.part Parādības
+settings.quality.mapDet Kartes Deteļas
+settings.quality.noTex Bez Tekstūras
+settings.quality.partdist Parādības Distance
+settings.quality.renderdist Renderēšanas Distance
+settings.quality.reflection Atspulga Kvalitāte
 settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Show Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
+settings.quality.shadows Ēnas
+settings.quality.softShad Mīkstas ēnas
+settings.quality.highResShad Augst-kval Ēnas
+settings.quality.shadowsDynamic Dinamiskās Ēnas
+settings.quality.trails Lodes Līnija
+settings.quality.yourTrails Tava Līnija
+settings.quality.mflash Stobra Zibsnis
+settings.quality.flap Rādīt Sniper Flap
+settings.quality.lowSpec Zemais Spec
+settings.quality.ambient Ambiantā tumsošana
+settings.quality.ambientOld Vecā Tumsošna (Kad Iespējams)
+settings.quality.textureAnim Tekstūras Animācija
+settings.quality.objectAnim Objekta Animācija
+settings.quality.screenShake Ekrāna Kratīšanās
+settings.quality.weaponShine Ieroča spīdīgums
 settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
+settings.quality.lighting Apgaismojums
+settings.quality.showExplo Rādīt Sprādzienus
 settings.quality.aspectRatio Aspect Ratio
 settings.post.header Post Processing
 settings.post.post Post Processing
 settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
+settings.post.bloomThreshold Bloom Priekša
+settings.post.bloomStrength Bloom Stiprums
+settings.post.bloomRadius Bloom Rādius
 settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgType Show Damage
-settings.interface.dmgType.default Rounded
+settings.post.ssaoRadius SSAO Rādius
+settings.interface.hitInd Rādīt Bojāšanas Indikātorus
+settings.interface.hitColor Bojāšanas Indikātora Krāsa
+settings.interface.dmg Rādīt Bojājumu
+settings.interface.dmgType Rādīt Bojājumu
+settings.interface.dmgType.default Noapaļojums
 settings.interface.dmgType.float Float
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
+settings.interface.dmgCol Bojāšanas Krāsa
+settings.interface.critCol Kritiskā Krāsa
 settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.theme Game Theme
-settings.interface.ui Show UI
+settings.interface.scale UI Lielums
+settings.interface.theme Spēles Tēma
+settings.interface.ui Rādīt UI
 settings.interface.scoreboard Use Old Scoreboard
 settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hideNonTrade Hide Non-Tradable Skins
-settings.interface.hp Dynamic HP Bars
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
-settings.interface.ping Show Ping
-settings.interface.net-stats Show Network Stats
-settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
-settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagScale Nametag Scale
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
+settings.interface.rarityanim Izslēgt Retuma Animāciju
+settings.interface.showPfp Rādīt Profila Bildes
+settings.interface.showTradeMsg Rādīt Iemainīšanās Ziņas
+settings.interface.hideNonTrade Slēpt Nemainošus priekšmetus
+settings.interface.hp Dinamiskie HP Indikatori
+settings.interface.dmgScale Bojāšanas Lielums
+settings.interface.killf Rādīt Nogalināšanas Daudzumu
+settings.interface.ping Rādīt Ping
+settings.interface.net-stats Rādīt Tīkla Status
+settings.interface.fps Rādīt FPS
+settings.interface.deaths Rādīt Miršanas Daudzumu
+settings.interface.kd Rādīt K/D Skaitītāju
+settings.interface.kills Rādīt Nogalināšanas Skaitītāju
+settings.interface.streak Rādīt Streak Skaitītāju
+settings.interface.score Rādīt Rezultāta Skaitītāju
+settings.interface.spectators Rādīt Spektātora Daudzumu
+settings.interface.speed Rādīt Kustības Ātrumu
+settings.interface.speedOffX Ātruma X Noiešana
+settings.interface.speedOffY Ātruma Y Noiešana
+settings.interface.speedOpacity Ātruma Biezums
+settings.interface.speedScale Ātruma Lielums
+settings.interface.speedColor Ātruma Krāsa (tagad)
+settings.interface.speedColorMax Ātruma Krāsa (Max)
+settings.interface.hideNames Pseidonīma Displejs
+settings.interface.hideNames.team Tikai Komandas
+settings.interface.hideNames.enemy Tikai Pretējiem
+settings.interface.hideNames.all Visi
+settings.interface.nametagStyle Pseidonīma Stils
+settings.interface.nametagOpac Pseidonīma Biezums
+settings.interface.nametagScale Pseidonīma Lielums
+settings.interface.nametagStyle.health Dzīvība tikai
+settings.interface.nametagStyle.name Tikai Pseidonīms
+settings.interface.nametagStyle.nameLvl Pseidonīms & Dzīvība tikai
+settings.interface.nametagStyle.all Viss
 settings.interface.healthNum Nametag Health Number
 settings.interface.healthColT Nametag Health Color Team
 settings.interface.healthColE Nametag Health Color Enemy
